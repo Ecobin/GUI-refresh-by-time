@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "io.github.typer"
+        applicationId "io.github.ecobin.myapplication"
         minSdkVersion 5
         targetSdkVersion 21
         versionCode 1
@@ -20,5 +20,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':typerlib')
 }

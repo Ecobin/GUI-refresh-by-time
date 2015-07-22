@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 21
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "io.github.typer"
         minSdkVersion 5
         targetSdkVersion 21
         versionCode 1
